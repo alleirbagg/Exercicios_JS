@@ -23,5 +23,8 @@ function encontrarIndicesMaxMin(array) {
 const numeros = [100, 6, 4, 23, 70, 10, 1];
 const indices = encontrarIndicesMaxMin(numeros);
 
+
 console.log(`Índice do maior valor: ${indices.indiceMaior}`);
-console.log(`Índice do menor valor: ${indices.indiceMenor}`)
+console.log(`Índice do menor valor: ${indices.indiceMenor}`);
+
+module.exports = encontrarIndicesMaxMin;
